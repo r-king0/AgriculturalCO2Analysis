@@ -1,6 +1,6 @@
 # Regression of Agricultural Data
 A regression project analyzing CO2 emissions from agricultural data. The goals are:
-1. Train models to predict the temperature change per year given data features - as of currently, I'm comparing and contrasting the results of a linear regression model vs a random forest regressor using the RMSE and $R^2$.
+1. Train models to predict the temperature change per year given data features - as of currently, I'm comparing and contrasting the results of a linear regression model vs a random forest regressor using the RMSE and $R^2$. Gradient boosting and deep learning models are not included, but will likely be considered at some point.
 2. Identify the most predictive features and sources of carbon emissions.
 
 The data is separated into a training and test set using a time series split (trained on pre-2014 data and tested on post-2014), and then fed through a pipeline which processes and feature scales the data. The processed datasets are used to train and test the learning models.
