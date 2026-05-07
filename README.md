@@ -1,5 +1,5 @@
 # Regression of Agricultural Data
-A regression project analyzing CO2 emissions using the [Agri-food CO2 emission dataset]([https://www.example.com](https://www.kaggle.com/datasets/alessandrolobello/agri-food-co2-emission-dataset-forecasting-ml/data)). The goals are:
+A regression project analyzing CO2 emissions using the [Agri-food CO2 emission dataset](https://www.kaggle.com/datasets/alessandrolobello/agri-food-co2-emission-dataset-forecasting-ml/data). The goals are:
 1. Train models to predict the temperature change per year given data features - as of currently, I'm comparing and contrasting the results of a linear regression model vs a random forest regressor using the RMSE and $R^2$. Gradient boosting, dedicated time-series methods e.g. ARIMA, and deep learning models are not included, but will likely be considered in a future update.
 2. Identify the most predictive features and sources of carbon emissions.
 
