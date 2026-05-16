@@ -1,6 +1,6 @@
 # Regression of Agricultural Data
 A regression project analyzing CO2 emissions using the [Agri-food CO2 emission dataset](https://www.kaggle.com/datasets/alessandrolobello/agri-food-co2-emission-dataset-forecasting-ml/data). The goals are:
-1. Train models to predict the temperature change per year given data features - as of currently, I'm comparing and contrasting the results of a linear regression model vs a random forest regressor using the RMSE and $R^2$. Gradient boosting, dedicated time-series methods e.g. ARIMA, and deep learning models are not included, but will likely be considered in a future update.
+1. Train models to predict the temperature change per year given data features - as of currently, I'm comparing and contrasting the results of a linear regression model vs a random forest regressor using the RMSE and $R^2$. Additionally, I did a comparative analysis of high-emission areas using an ARIMA model.
 2. Identify the most predictive features and sources of carbon emissions.
 
 The data is separated into a training and test set using a time series split (trained on pre-2014 data and tested on post-2014), and then fed through a pipeline which processes and feature scales the data. The processed datasets are used to train and test the learning models.
@@ -24,3 +24,6 @@ The most important features in terms of predicting the temperature change are th
 
 <img width="769" height="455" alt="image" src="https://github.com/user-attachments/assets/087e0cbf-a99c-4d52-b6ce-4c9fa60856ce" />
 
+The ARIMA model performs the best when emissions are high. However, the small size of the test set and general variation in temperature means that the actual temperature changes are much more complicated than the predicted results.
+
+<img width="557" height="457" alt="image" src="https://github.com/user-attachments/assets/9d828a4e-7805-4a81-bbcb-ffe49c3bf4d2" />
