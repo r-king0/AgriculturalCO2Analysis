@@ -24,6 +24,6 @@ The most important features in terms of predicting the temperature change are th
 
 <img width="769" height="455" alt="image" src="https://github.com/user-attachments/assets/087e0cbf-a99c-4d52-b6ce-4c9fa60856ce" />
 
-The ARIMA model performs the best when emissions are high. However, the small size of the test set and general variation in temperature means that the actual temperature changes are much more complicated than the predicted results.
+The ARIMA model (solid lines) performs the best when emissions are high. However, the small size of the test data and general variation in temperature means that the actual temperature changes (dashed) are much more complicated than the predicted results.
 
 <img width="557" height="457" alt="image" src="https://github.com/user-attachments/assets/9d828a4e-7805-4a81-bbcb-ffe49c3bf4d2" />
